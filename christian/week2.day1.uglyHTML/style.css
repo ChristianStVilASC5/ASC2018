@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(53,53,53);
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+header{
+    font-size: 72px;
+    font-family: 'Tangerine', cursive;
+}
+
+h3{
+    font-size: 26px;
+    font-family: 'Unica One', cursive;
+}
+
+.watch_description{
+    border: solid;
+    border-width: 2px;
+    border-color: #FDEFA6;
+    border-radius: 13px;
+    background-color: #1A1818;
+    font-family: 'Dosis', sans-serif;
+}

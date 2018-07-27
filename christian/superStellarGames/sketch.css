@@ -1,0 +1,105 @@
+* {
+    /* removes white space on the sides */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body{
+    background-color: black;    
+}
+#name{
+    font-family: 'Muli', sans-serif;
+    font-size: 50px;
+}
+#navbar{
+    display: flex;
+    background-color: #4a8cf7;
+    height: 100px;
+    padding:13px;
+    align-items: center;
+}
+#navbar img{
+    width: 100px;
+    height: 100px;
+}
+#body{
+    
+}
+#middle{
+    display:flex;
+    justify-content: center;
+    background-color: white;
+}
+
+#footer{
+    display: flex;
+    background-color: #4a8cf7;
+    height: 50px;
+    align-items: center;
+}
+
+#top {
+    width: 100%;
+}
+#top img{
+    width: 100%;
+    margin: 0;
+}
+
+#update{
+    background-color: black;
+    margin: 0;
+    color:white;    
+    padding:20px;
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    justify-content: space-around;    
+}
+#ps4 img{
+    width: 200px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#preorder{
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+            
+}
+@media(max-width: 320px){
+    #middle{
+        flex-direction: column;
+    }
+}
+#preorder h3{
+    color: #0072ce;
+    margin-bottom: 5px;
+    font-family: 'Oxygen', sans-serif;
+}
+#preorder h1, #preorder h2, #preorder p{
+    margin-bottom: 7px;
+    font-family: 'Oxygen', sans-serif;
+}
+#preorder .button{
+    margin: 5px;
+}
+.button{
+    width: 100px;
+    padding: 10px;
+    color: white;
+    background-color:#e56922;
+}
+#spiderman img{
+    width:100%;
+}
+
+.button:hover{
+    background-color: #e5be30
+}
